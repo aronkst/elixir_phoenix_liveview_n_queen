@@ -1,13 +1,6 @@
 /* This file is for your main application css. */
 
-@import "./phoenix.css";
-
 @import "../../deps/phoenix_live_view/assets/css/live_view.css";
-
-.container {
-  margin: 0;
-  max-width: none;
-}
 
 table.chessboard {
   margin-top: 20px;
