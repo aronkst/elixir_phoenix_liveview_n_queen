@@ -17,6 +17,8 @@ defmodule ElixirPhoenixLiveviewNQueenWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+
+    live "/n_queen", GalleryLive  
   end
 
   # Other scopes may use custom stacks.
