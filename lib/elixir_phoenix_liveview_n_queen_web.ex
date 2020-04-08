@@ -24,6 +24,8 @@ defmodule ElixirPhoenixLiveviewNQueenWeb do
       import Plug.Conn
       import ElixirPhoenixLiveviewNQueenWeb.Gettext
       alias ElixirPhoenixLiveviewNQueenWeb.Router.Helpers, as: Routes
+
+      import Phoenix.LiveView.Controller
     end
   end
 
@@ -42,6 +44,8 @@ defmodule ElixirPhoenixLiveviewNQueenWeb do
       import ElixirPhoenixLiveviewNQueenWeb.ErrorHelpers
       import ElixirPhoenixLiveviewNQueenWeb.Gettext
       alias ElixirPhoenixLiveviewNQueenWeb.Router.Helpers, as: Routes
+
+      import Phoenix.LiveView.Helpers
     end
   end
 
@@ -50,6 +54,8 @@ defmodule ElixirPhoenixLiveviewNQueenWeb do
       use Phoenix.Router
       import Plug.Conn
       import Phoenix.Controller
+
+      import Phoenix.LiveView.Router
     end
   end
 
