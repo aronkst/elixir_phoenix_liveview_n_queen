@@ -1,4 +1,8 @@
-# ElixirPhoenixLiveviewNQueen
+# Elixir Phoenix Liveview N Queen
+
+This is a small project that uses the programming language Elixir and the Phoenix Framework to solve the problem known as [N Queens](https://en.wikipedia.org/wiki/Eight_queens_puzzle) using Phoenix LiveView to show the solution of the problem to the user, as a single page application.
+
+## Run the application
 
 To start your Phoenix server:
 
@@ -7,8 +11,6 @@ To start your Phoenix server:
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
 ## Learn more
 
