@@ -18,7 +18,7 @@ defmodule ElixirPhoenixLiveviewNQueenWeb.Router do
 
     get "/", PageController, :index
 
-    live "/n_queen", GalleryLive  
+    live "/n_queen", NQueenLive  
   end
 
   # Other scopes may use custom stacks.
